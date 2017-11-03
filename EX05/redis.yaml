@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: redis-manual
+spec:
+  containers:
+  - image: redis:4.0.1
+    name: redis
